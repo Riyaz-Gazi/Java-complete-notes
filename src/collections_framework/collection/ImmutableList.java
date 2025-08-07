@@ -11,5 +11,6 @@ public class ImmutableList {
         list.add("Banana");
         List<String> immutableList = Collections.unmodifiableList(list);
         System.out.println(immutableList);
+
     }
 }

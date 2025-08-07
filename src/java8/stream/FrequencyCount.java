@@ -18,6 +18,7 @@ public class FrequencyCount {
 
         System.out.println(collect);
 
+
         // Frequency of each character of a string
         String str = "aaabbb aa bb cc";
         final Map<Character, Long> freqCount = str.chars()
@@ -29,5 +30,6 @@ public class FrequencyCount {
                 ));
 
         System.out.println(freqCount);
+
     }
 }
