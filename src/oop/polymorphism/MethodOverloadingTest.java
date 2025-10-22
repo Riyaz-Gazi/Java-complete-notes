@@ -1,4 +1,4 @@
-package oop.polymorpsihm;
+package oop.polymorphism;
 
 class Calculator {
     public int add(int a, int b) {

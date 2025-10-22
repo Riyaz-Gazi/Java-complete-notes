@@ -36,7 +36,10 @@ public class EqualsHashCodeTest {
     public static void main(String[] args) {
         Person p1 = new Person("Alice","alice@gmail.com");
         Person p2 = new Person("Alice","alice@gmail.com");
+        Person p3 = p1;
+        System.out.println(p1 == p3);
         System.out.println(p1.equals(p2));
+        System.out.println(p1.hashCode());
         System.out.println(p1.hashCode() == p2.hashCode());
     }
 }

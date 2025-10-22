@@ -34,7 +34,7 @@ class Animal implements Comparable<Animal> {
     }
 }
 
-public class ComparableMain {
+public class  ComparableMain {
     public static void main(String[] args) {
         Animal a1 = new Animal(2, "Leo", 10);
         Animal a2 = new Animal(2, "Maxo", 23);

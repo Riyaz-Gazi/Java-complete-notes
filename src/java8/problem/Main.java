@@ -33,16 +33,10 @@ class Employee {
     }
 }
 
-record Person(int age, String name) {
-
-}
 
 public class Main {
     public static void main(String[] args) {
 
-        Person p = new Person(2, "Riyaz");
-
-        System.out.println(p.age() + " " + p.name());
 
         Map<Integer, Employee> employeeMap = new HashMap<>();
         employeeMap.put(1, new Employee(1, "Alice", 101, 5000));

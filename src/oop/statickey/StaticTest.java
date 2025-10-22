@@ -3,7 +3,7 @@ package oop.statickey;
 class Men{
 
     static int LEG = 2;
-    void walk(){
+    static void walk(){
         System.out.println("Men is walking");
     }
 
@@ -11,11 +11,11 @@ class Men{
 
 public class StaticTest {
     public static void main(String[] args) {
-//        Men.walk();
-//        System.out.println(Men.LEG);
-//        Men.LEG= 4;
-//        System.out.println(Men.LEG);
-        Men men = new Men();
+        Men.walk();
+        System.out.println(Men.LEG);
+        Men.LEG= 4;
+        System.out.println(Men.LEG);
+
 
     }
 }

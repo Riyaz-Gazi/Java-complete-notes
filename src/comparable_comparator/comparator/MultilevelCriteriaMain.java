@@ -54,6 +54,8 @@ public class MultilevelCriteriaMain {
                 .thenComparing(byRollNo);
         students.sort(multiLevelComparator);
 
+        // another form of comparator
+        Collections.sort(students,Comparator.comparingInt(Student::getMarks).reversed().thenComparing(Student::getName).thenComparingInt(Student::getRollNo));
         System.out.println(students);
     }
 }

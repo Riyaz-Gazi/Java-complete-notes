@@ -1,6 +1,5 @@
 package collections_framework.collection;
 
-import java.util.AbstractList;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

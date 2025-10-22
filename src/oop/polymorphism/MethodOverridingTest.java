@@ -1,4 +1,4 @@
-package oop.polymorpsihm;
+package oop.polymorphism;
 
 class Animal {
     public void sound() {
